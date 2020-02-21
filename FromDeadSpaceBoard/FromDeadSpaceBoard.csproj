@@ -43,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IPlugin.cs" />
+    <Compile Include="MyPlugins\Division.cs" />
+    <Compile Include="MyPlugins\PluginVersion.cs" />
+    <Compile Include="MyPlugins\Subtraction.cs" />
     <Compile Include="PluginFactory.cs" />
     <Compile Include="Plugins.cs" />
     <Compile Include="MyPlugins\Sum.cs" />

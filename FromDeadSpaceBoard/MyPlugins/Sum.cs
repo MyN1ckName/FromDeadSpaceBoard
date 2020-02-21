@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ds.test.impl.MyPlugins
+﻿namespace ds.test.impl.MyPlugins
 {
-	class Sum : IPlugin
+	class Sum : PluginVersion, IPlugin
 	{
 		public string PluginName { get { return "Sum"; } }
-		public string Version { get { return "0.0.1"; } }
 
 		public System.Drawing.Image Image
 		{ get { return System.Drawing.Image.FromFile("MyPlugins/img/sum.png"); } }
